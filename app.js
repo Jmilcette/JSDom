@@ -1,14 +1,4 @@
-const wrap = document.querySelector('#Wrapper');
-
-//Using this method, you do not need to turn it into an array
-var books = document.querySelector('#book-list list .name')
-
-//Using this method, you have to use .forEach() to turn it into an array
-var books2 = document.getElementsByClassName('name');
-console.log(books2);
-
-Array.from(books).forEach(function(book){
-    
-//Using .textContent to change the text inside the selected query in my books variable
-    book.textContent += '(book title)';
-})
+//In this line were taking the banner id with the query selector
+const banner = document.querySelector('#page-banner');
+//This line will display the node type as 1 which is element
+console.log('#page-banner node type is:', banner.nodeType)
