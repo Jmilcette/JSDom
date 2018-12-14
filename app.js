@@ -7,4 +7,4 @@ console.log('#page-banner node type is:', banner.nodeType);
 console.log('#page-banner node name is:', banner.nodeName);
 
 //This line will give a true or false statement on whether or not there are child nodes on the selected element
-console.log('#page-banner node name is:', banner.hasChildNodes());
+console.log('#page-banner has child nodes:', banner.hasChildNodes());
