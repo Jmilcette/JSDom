@@ -10,5 +10,4 @@ console.log('#page-banner node name is:', banner.nodeName);
 console.log('#page-banner has child nodes:', banner.hasChildNodes());
 
 const clonedBanner =banner.cloneNode(true);
-s
 console.log(clonedBanner);
