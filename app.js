@@ -9,5 +9,6 @@ console.log('#page-banner node name is:', banner.nodeName);
 //This line will give a true or false statement on whether or not there are child nodes on the selected element
 console.log('#page-banner has child nodes:', banner.hasChildNodes());
 
+//You can clone a node with .cloneNode and passing it as true to go deeper into the DOM tree
 const clonedBanner =banner.cloneNode(true);
 console.log(clonedBanner);
